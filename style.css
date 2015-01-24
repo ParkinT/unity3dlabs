@@ -34,6 +34,21 @@ p > a:hover {
   border: 1px solid rgb(240, 240, 240);
 }
 
+img.snapshot {
+  width: 25%;
+  display: inline;
+  padding: 2px;
+  margin: 2px;
+}
+
+img.cover {
+  width: 70%;
+  margin-left: 15%;
+  height: auto;
+  z-index: -10;
+  object-fit: cover;
+}
+
 .vrtifact {
   font-size: 120%;
   color: #09c;
