@@ -1,0 +1,73 @@
+html, body {
+  font-family: Verdana, Sans serif;
+}
+
+h1 a, h1 a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  text-align: center;
+}
+
+header {
+  padding-bottom: 10px;
+}
+
+hr {
+  padding-top: 4px;
+}
+
+p > a, p > a:link, p > a:visited {
+  text-decoration: none;
+  color: #909040;
+  background-color: rgb(240, 240, 240);
+  border: 1px solid rgb(240, 240, 240);
+}
+
+p > a:hover {
+  background-color: inherit;
+  border: 1px solid rgb(240, 240, 240);
+}
+
+.vrtifact {
+  font-size: 120%;
+  color: #09c;
+}
+.indent {
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+}
+
+.date {
+  padding-left: none;
+  padding-right: 4px;
+  font-weight: bold;
+  font-size: 140%;
+  color: #3333FF;
+}
+
+/*
+
+Sticky Footer by Ryan Fait
+http://ryanfait.com/
+
+*/
+* {
+    margin: 5px;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+    height: 100%;
+    margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 155px; /* .push must be the same height as .footer */
+  text-align: center;
+}
