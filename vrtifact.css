@@ -5,6 +5,11 @@ html, body {
     height: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 section {
   margin: 5px;
 }
@@ -12,7 +17,7 @@ section {
 nav {
   position: relative;
   top: -60px;
- 
+  left: 5%;
 }
 
 nav ul li {
@@ -20,11 +25,12 @@ nav ul li {
   font-size: 32px;
 }
 
-nav ul li a, nav ul li a:visited, nav ul li a:link {
+nav a, nav a:visited, nav a:link {
   text-decoration: none;
   color: #6B4624;
   font-weight: bold;
 }
+
 a:hover, a:active {
   color: #D5AC81;
 }
@@ -40,24 +46,28 @@ a:hover, a:active {
 }
 
 img.cover {
-  width: 100%;
+  width: 98%;
   margin-left: none;
   height: auto;
   z-index: -10;
   object-fit: cover;
 }
 
-img.snapshot {
+img.snapshot, img.snapshot {
   width: 25%;
   display: inline;
   padding: 2px;
   margin: 2px;
 }
 
+img.panel {
+  width: 45%;
+}
+
 footer {
   text-align: center;
   padding-top: 4px;
   padding-bottom: 3px;
-  color: #D5AC81;
+  color: #A59C81;
   background-color: #DDB798;
 }
